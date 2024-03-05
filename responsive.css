@@ -1,0 +1,332 @@
+/* Tambahkan CSS ini untuk mengatur tata letak secara responsif */
+
+@media (max-width: 1285.60px) {
+
+    /* map section */
+    #map {
+        margin-top: 100px; /* Sesuaikan margin-top agar peta terlihat lebih baik */
+      }
+    
+      .section-title {
+        margin-top: 300px; /* Sesuaikan margin-top agar judul bagian terlihat lebih baik */
+        margin-bottom: 50px; /* Sesuaikan margin-bottom agar judul bagian terlihat lebih baik */
+      }
+    
+      .section-title h3 {
+        font-size: 30px; /* Mengurangi ukuran font untuk layar dengan lebar maksimum 767.98px */
+        line-height: 40px; /* Sesuaikan line-height untuk tampilan yang lebih baik */
+        margin-top: 20px; /* Sesuaikan margin-top agar judul terlihat lebih baik */
+      }
+    
+      .text {
+        font-size: 16px; /* Sesuaikan ukuran font agar teks terlihat lebih baik */
+        margin-left: 20px; /* Sesuaikan margin agar teks terlihat lebih baik */
+      }
+    
+      .mapImage {
+        width: 100%; /* Agar gambar peta mengisi lebar container */
+        margin-top: 20px; /* Sesuaikan margin-top agar gambar terlihat lebih baik */
+      }
+    
+      #locationImage {
+        width: 100%; /* Agar gambar lokasi mengisi lebar container */
+        height: auto; /* Biarkan tinggi gambar disesuaikan dengan proporsionalnya */
+      }
+    
+      #locationDesc {
+        width: 100%; /* Agar deskripsi lokasi mengisi lebar container */
+        font-size: 14px; /* Sesuaikan ukuran font agar deskripsi terlihat lebih baik */
+        margin-top: 20px; /* Sesuaikan margin-top agar deskripsi terlihat lebih baik */
+      }
+    
+}
+
+@media (max-width: 991.98px) {
+    .copyright {
+        top: 70%;
+        color: #fff;
+        font-weight: 500;
+        font-size: 12px;
+        font-weight: normal;
+        margin-top: 10px;
+        line-height: 20px;
+      }
+    .navbar-nav {
+      margin-top: 20px; /* Sesuaikan jarak navbar dari atas */
+    }
+      
+      .hero-tagline h1 {
+        font-size: 30px; /* Mengurangi ukuran font untuk layar dengan lebar maksimum 992px */
+        line-height: 40px; /* Sesuaikan line-height untuk tampilan yang lebih baik */
+      }
+    
+      .hero-tagline h3 {
+        font-size: 24px; /* Mengurangi ukuran font untuk layar dengan lebar maksimum 992px */
+        line-height: 40px; /* Sesuaikan line-height untuk tampilan yang lebih baik */
+      }
+    
+      .hero-tagline p {
+        font-size: 10px; /* Mengurangi ukuran font untuk layar dengan lebar maksimum 992px */
+        line-height: 25px; /* Sesuaikan line-height untuk tampilan yang lebih baik */
+      }
+    
+      .button-lg-primary {
+        width: 120px; /* Mengurangi lebar tombol untuk layar dengan lebar maksimum 992px */
+        height: 40px; /* Mengurangi tinggi tombol untuk layar dengan lebar maksimum 992px */
+        font-size: 14px; /* Mengurangi ukuran font untuk layar dengan lebar maksimum 992px */
+      }
+    
+      .hero-tagline1 p {
+        font-size: 10px; /* Mengurangi ukuran font untuk layar dengan lebar maksimum 992px */
+        line-height: 25px; /* Sesuaikan line-height untuk tampilan yang lebih baik */
+
+      }
+      /* map section */
+    #map {
+        margin-top: 100px; /* Sesuaikan margin-top agar peta terlihat lebih baik */
+      }
+    
+      .section-title {
+        margin-top: 800px; /* Sesuaikan margin-top agar judul bagian terlihat lebih baik */
+        margin-bottom: 50px; /* Sesuaikan margin-bottom agar judul bagian terlihat lebih baik */
+      }
+    
+      .section-title h3 {
+        font-size: 30px; /* Mengurangi ukuran font untuk layar dengan lebar maksimum 767.98px */
+        line-height: 40px; /* Sesuaikan line-height untuk tampilan yang lebih baik */
+        margin-top: 20px; /* Sesuaikan margin-top agar judul terlihat lebih baik */
+      }
+    
+      .text {
+        font-size: 16px; /* Sesuaikan ukuran font agar teks terlihat lebih baik */
+        margin-left: 20px; /* Sesuaikan margin agar teks terlihat lebih baik */
+      }
+    
+      .mapImage {
+        width: 100%; /* Agar gambar peta mengisi lebar container */
+        margin-top: 20px; /* Sesuaikan margin-top agar gambar terlihat lebih baik */
+      }
+    
+      #locationImage {
+        width: 100%; /* Agar gambar lokasi mengisi lebar container */
+        height: auto; /* Biarkan tinggi gambar disesuaikan dengan proporsionalnya */
+      }
+    
+      #locationDesc {
+        width: 100%; /* Agar deskripsi lokasi mengisi lebar container */
+        font-size: 14px; /* Sesuaikan ukuran font agar deskripsi terlihat lebih baik */
+        margin-top: 20px; /* Sesuaikan margin-top agar deskripsi terlihat lebih baik */
+      }
+    
+      #contact {
+        margin-top: 50px; /* Sesuaikan margin-top agar bagian kontak terlihat lebih baik */
+      }
+      #contact h3 {
+        margin-top: 200px;
+        font-size: 40px;
+        line-height: 60px;
+        color: #fff;
+        width: 100%;
+        padding-bottom: 30px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+      }
+      
+      
+    
+  }
+  
+  @media (max-width: 767.98px) {
+    .copyright {
+        top: 70%;
+        color: #fff;
+        font-weight: normal; /* Mengubah font-weight menjadi normal */
+        font-size: 12px;
+        margin-top: 10px;
+        line-height: 20px;
+    }
+    
+    .navbar-nav {
+        margin-top: 5px; /* Mengurangi jarak navbar dari atas */
+    }
+    
+    .hero-tagline {
+        text-align: left; /* Menggeser semua elemen ke kiri */
+    }
+    
+    .hero-tagline img {
+        width: 10px;
+    }
+    
+    .hero-tagline h1 {
+        font-size: 20px; /* Mengurangi ukuran font untuk layar dengan lebar maksimum 767.98px */
+        line-height: 20px; /* Sesuaikan line-height untuk tampilan yang lebih baik */
+    }
+    
+    .hero-tagline h3 {
+        font-size: 14px; /* Mengurangi ukuran font untuk layar dengan lebar maksimum 767.98px */
+        line-height: 20px; /* Sesuaikan line-height untuk tampilan yang lebih baik */
+    }
+    
+    .hero-tagline p {
+        font-size: 8px; /* Mengurangi ukuran font untuk layar dengan lebar maksimum 767.98px */
+        line-height: 15px; /* Sesuaikan line-height untuk tampilan yang lebih baik */
+    }
+    
+    .button-lg-primary {
+        width: 80px; /* Mengurangi lebar tombol untuk layar dengan lebar maksimum 767.98px */
+        height: 25px; /* Mengurangi tinggi tombol untuk layar dengan lebar maksimum 767.98px */
+        font-size: 8px; /* Mengurangi ukuran font untuk layar dengan lebar maksimum 767.98px */
+    }
+    
+    .hero-tagline1 p {
+        font-size: 8px; /* Mengurangi ukuran font untuk layar dengan lebar maksimum 767.98px */
+        line-height: 15px; /* Sesuaikan line-height untuk tampilan yang lebih baik */
+    }
+
+  
+    /* map section */
+    #map {
+      margin-top: 100px; /* Sesuaikan margin-top agar peta terlihat lebih baik */
+    }
+  
+    .section-title {
+      margin-top: 1500px; /* Sesuaikan margin-top agar judul bagian terlihat lebih baik */
+      margin-bottom: 50px; /* Sesuaikan margin-bottom agar judul bagian terlihat lebih baik */
+    }
+  
+    .section-title h3 {
+      font-size: 30px; /* Mengurangi ukuran font untuk layar dengan lebar maksimum 767.98px */
+      line-height: 40px; /* Sesuaikan line-height untuk tampilan yang lebih baik */
+      margin-top: 20px; /* Sesuaikan margin-top agar judul terlihat lebih baik */
+    }
+  
+    .text {
+      font-size: 16px; /* Sesuaikan ukuran font agar teks terlihat lebih baik */
+      margin-left: 20px; /* Sesuaikan margin agar teks terlihat lebih baik */
+    }
+  
+    .mapImage {
+      width: 100%; /* Agar gambar peta mengisi lebar container */
+      margin-top: 20px; /* Sesuaikan margin-top agar gambar terlihat lebih baik */
+    }
+  
+    #locationImage {
+      width: 100%; /* Agar gambar lokasi mengisi lebar container */
+      height: auto; /* Biarkan tinggi gambar disesuaikan dengan proporsionalnya */
+    }
+  
+    #locationDesc {
+      width: 100%; /* Agar deskripsi lokasi mengisi lebar container */
+      font-size: 14px; /* Sesuaikan ukuran font agar deskripsi terlihat lebih baik */
+      margin-top: 20px; /* Sesuaikan margin-top agar deskripsi terlihat lebih baik */
+    }
+  
+    #contact {
+      margin-top: 50px; /* Sesuaikan margin-top agar bagian kontak terlihat lebih baik */
+    }
+    #contact h3 {
+      margin-top: 800px;
+      font-size: 40px;
+      line-height: 60px;
+      color: #fff;
+      width: 100%;
+      padding-bottom: 30px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .copyright {
+        top: 70%;
+        color: #fff;
+        font-weight: 500;
+        font-size: 12px;
+        font-weight: normal;
+        margin-top: 10px;
+        line-height: 20px;
+      }
+
+    .hero-tagline img{
+        width: 10px;
+    }
+    .navbar-nav {
+        margin-top: 5px; /* Mengurangi jarak navbar dari atas */
+    }
+    
+    .hero-tagline h1 {
+        font-size: 18px; /* Mengurangi ukuran font untuk layar dengan lebar maksimum 480px */
+        line-height: 20px; /* Sesuaikan line-height untuk tampilan yang lebih baik */
+    }
+    
+    .hero-tagline h3 {
+        font-size: 14px; /* Mengurangi ukuran font untuk layar dengan lebar maksimum 480px */
+        line-height: 20px; /* Sesuaikan line-height untuk tampilan yang lebih baik */
+    }
+    
+    .hero-tagline p {
+        font-size: 8px; /* Mengurangi ukuran font untuk layar dengan lebar maksimum 480px */
+        line-height: 15px; /* Sesuaikan line-height untuk tampilan yang lebih baik */
+    }
+    
+    .button-lg-primary {
+        width: 80px; /* Mengurangi lebar tombol untuk layar dengan lebar maksimum 480px */
+        height: 25px; /* Mengurangi tinggi tombol untuk layar dengan lebar maksimum 480px */
+        font-size: 8px; /* Mengurangi ukuran font untuk layar dengan lebar maksimum 480px */
+    }
+    
+    .hero-tagline1 p {
+        font-size: 8px; /* Mengurangi ukuran font untuk layar dengan lebar maksimum 480px */
+        line-height: 15px; /* Sesuaikan line-height untuk tampilan yang lebih baik */
+    }
+    
+    /* map section */
+    #map {
+        margin-top: 10px; /* Sesuaikan margin-top agar peta terlihat lebih baik */
+    }
+    
+    .section-title {
+        margin-top: 500px; /* Sesuaikan margin-top agar judul bagian terlihat lebih baik */
+        ; /* Sesuaikan margin-bottom agar judul bagian terlihat lebih baik */
+    }
+    
+    .section-title h3 {
+        font-size: 16px; /* Mengurangi ukuran font untuk layar dengan lebar maksimum 480px */
+        line-height: 20px; /* Sesuaikan line-height untuk tampilan yang lebih baik */
+        margin-top: 1400px; /* Sesuaikan margin-top agar judul terlihat lebih baik */
+    }
+    
+    .text {
+        font-size: 12px; /* Sesuaikan ukuran font agar teks terlihat lebih baik */
+        margin-left: 5px; /* Sesuaikan margin agar teks terlihat lebih baik */
+        margin-top: 50px
+    }
+    
+    .mapImage {
+        width: 100%; /* Agar gambar peta mengisi lebar container */
+        margin-top: 20px; /* Sesuaikan margin-top agar gambar terlihat lebih baik */
+    }
+    
+    #locationImage {
+        width: 100%; /* Agar gambar lokasi mengisi lebar container */
+        height: auto; /* Biarkan tinggi gambar disesuaikan dengan proporsionalnya */
+    }
+    
+    #locationDesc {
+        width: 100%; /* Agar deskripsi lokasi mengisi lebar container */
+        font-size: 10px; /* Sesuaikan ukuran font agar deskripsi terlihat lebih baik */
+        margin-top: 10px; /* Sesuaikan margin-top agar deskripsi terlihat lebih baik */
+    }
+    
+    #contact {
+        margin-top: 20px; /* Sesuaikan margin-top agar bagian kontak terlihat lebih baik */
+    }
+    
+    #contact h3 {
+        font-size: 20px; /* Mengurangi ukuran font untuk layar dengan lebar maksimum 480px */
+        line-height: 25px; /* Sesuaikan line-height untuk tampilan yang lebih baik */
+        margin-top: 800px; /* Sesuaikan margin-top agar judul terlihat lebih baik */
+    }
+}
